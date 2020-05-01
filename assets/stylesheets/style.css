@@ -8,7 +8,10 @@
 .blue {
     background: rgb(67, 111, 255);
 }
-/* TODO 1
+.pink {
+    background: pink;
+}
+/* TODO 1 DONE
 *
 * Add a CSS rule for the pink button.
 *

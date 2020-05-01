@@ -9,7 +9,12 @@ const blueButton = document.querySelector("#blue-button");
 blueButton.addEventListener("click", function () {
     colorBox.className = "blue";
 })
-/* TODO 1
+
+const pinkButton = document.querySelector("#pink-button");
+pinkButton.addEventListener("click", function () {
+    colorBox.className = "pink" ;
+})
+/* TODO 1 DONE
 *
 * Add the JS for the pink button
 *
@@ -18,7 +23,9 @@ let count = 0;
 const countspan = document.querySelector("#countspan");
 const counterButton = document.querySelector("#counter-button");
 counterButton.addEventListener("click", function () {
-    /* TODO 2
+countspan.innerHTML = count += 1
+
+    /* TODO 2 DONE
     *
     * Fill in this function so that it increments
     * (adds one to) the variable named count,
@@ -28,7 +35,12 @@ counterButton.addEventListener("click", function () {
 })
 const evenOrOddButton = document.querySelector("#even-or-odd-button");
 evenOrOddButton.addEventListener("click", function () {
-    /* TODO 3
+    if ( count % 2 == 0) {
+        alert('Even Number');
+    }else{
+        alert('Odd Number');
+    }
+    /* TODO 3 DONE
     *
     * Fill in this function so that it shows an
     * alert dialog stating whether the count variable
